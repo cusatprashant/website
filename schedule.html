@@ -39,9 +39,30 @@
         th {
             background-color: #f2f2f2;
         }
+        .large-button {
+            width: 200px; /* Adjust width */
+            height: 50px; /* Adjust height */
+            font-size: 18px; /* Adjust font size */
+            padding: 10px 20px; /* Adjust padding */
+            border-radius: 15px; /* Adjust roundness */
+        }
+        header {
+            display: flex;
+            justify-content: left; /* Adjust as needed */
+            align-items: center; /* Adjust as needed */
+            height: 150px; /* Adjust as needed */
+            
+        }
+        header img {
+            max-height: 150px; /* Adjust as needed */
+            max-width: 100%; /* Adjust as needed */
+        }
     </style>
 </head>
 <body>
+    <header>
+        <img src="ganesh_header.jpg" alt="Ganesh Header">
+    </header>
     <h2>Ganpati Mahotsav Schedule</h2>
     <h3>Schedule Table:</h3>
     <table>
@@ -88,6 +109,6 @@
             <td>Your passion and performance</td>
         </tr>
     </table>
-    <button onclick="window.location.href='index.html'">Home</button>
+    <p><button class="large-button" onclick="window.location.href='index.html'"><b>Home</b></button></p>
 </body>
 </html>
