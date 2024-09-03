@@ -39,12 +39,12 @@
         }
         header {
             display: flex;
-            justify-content: left; /* Adjust as needed */
+            justify-content: space-between; /* Adjusted to space-between */
             align-items: center; /* Adjust as needed */
-            height: 150px; /* Adjust as needed */
+            height: 200px; /* Adjust as needed */
         }
         header img {
-            max-height: 150px; /* Adjust as needed */
+            max-height: 200px; /* Adjust as needed */
             max-width: 100%; /* Adjust as needed */
         }
         .large-button {
@@ -76,6 +76,7 @@
 <body>
     <header>
         <img src="ganesh_header.jpg" alt="Ganesh Header">
+		<img src="donate.jpg" alt="donate" style="align-self: flex-end;">
     </header>
     <marquee scrollamount="10">Registration for Cooking and Treasure hunt is closing soon.....</marquee>
     <h2>Welcome to Ganpati Mahotsav, Godrej Hillside1!</h2>
@@ -168,6 +169,7 @@
     <p><div class="button-container">
         <button class="large-button" onclick="window.location.href='schedule.html'"><b>Event Schedule</b></button>
         <button class="large-button" onclick="window.location.href='result.html'"><b>Event Result</b></button>
+		<button class="large-button" onclick="window.location.href='donate.html'"><b>Donate</b></button>
     </div>
     </p>
     <footer>
